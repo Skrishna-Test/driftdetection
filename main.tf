@@ -21,6 +21,7 @@ resource "aws_s3_bucket" "example_bucket" {
     Name      = "ExampleBucket"
     yor_name  = "example_bucket"
     yor_trace = "4b210fa7-c042-423c-a817-925f95b66541"
+    git_org   = "Skrishna-Test"
   }
 }
 
